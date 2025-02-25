@@ -1,0 +1,54 @@
+# Ignore virtual environment directories
+venv/
+*.venv/
+
+# Ignore bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore build directories and distribution files (for Python)
+build/
+*.egg-info/
+dist/
+*.egg
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore build directories (for C++)
+/build/
+/bin/
+/out/
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore debug and release folders
+/debug/
+/release/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ignore backup files
+*~
+*.bak
